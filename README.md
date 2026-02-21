@@ -22,7 +22,7 @@ This is why incompleteness is unavoidable. To escape it while retaining self-ref
 
 ## Origin
 
-This repo extracts and generalizes the encoding obstruction results from [SpectralArithmeticTheory](https://github.com/suisuss/SpectralArithmeticTheory), which builds an algebraic framework where numbers emerge as eigenvalues of an observation operator and derives both PA and ZF from unified axioms. In that framework, the encoding-observation square (`encoding_obstruction_term`) makes the morphism failure concrete: the system can observe its eigenstates but cannot faithfully encode the act of observation.
+This repo extracts and generalizes the encoding obstruction results from [SpectralArithmeticTheory](https://github.com/suisuss/SpectralArithmeticTheory), which builds an algebraic framework where numbers emerge as eigenvalues of an observation operator and derives both PA and ZF from unified axioms. The [original obstruction proofs](https://github.com/suisuss/SpectralArithmeticTheory/tree/main/SpectralArithmetic/Obstruction) live within that framework, where the encoding-observation square (`encoding_obstruction_term`) makes the morphism failure concrete: the system can observe its eigenstates but cannot faithfully encode the act of observation.
 
 The present repo proves the obstruction in full generality, independent of the spectral framework — for any term algebra, any encoding, any sufficiently expressive formal system.
 
@@ -132,3 +132,4 @@ lake build
 
 - [docs/encoding-obstruction.md](docs/encoding-obstruction.md) — extended discussion of the trilemma, its connections to Gödel/Turing/Rice, and accessible explanations
 - [SpectralArithmeticTheory](https://github.com/suisuss/SpectralArithmeticTheory) — the algebraic framework where numbers emerge as eigenvalues, PA and ZF are derived from unified axioms, and the encoding obstruction is proved at the spectral level
+- [SpectralArithmetic/Obstruction](https://github.com/suisuss/SpectralArithmeticTheory/tree/main/SpectralArithmetic/Obstruction) — the original encoding obstruction proofs within the spectral framework, from which this repo generalizes
