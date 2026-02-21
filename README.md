@@ -96,10 +96,11 @@ These results close off representation-level escape routes:
 | Theorem | Statement |
 |---|---|
 | `bool_char_two` | Any commutative, cancellative operation with identity on Bool has characteristic 2 |
-| `oplus_bitwise_impossible` | No bit-level operation satisfies commutativity + cancellation + identity + characteristic 0 |
+| `oplus_bitwise_impossible` | Any commutative, cancellative Bool operation with identity has characteristic 2 (cannot have characteristic 0) |
 | `add_not_injective_on_pairs` | Addition is not injective on pairs: `3 + 5 = 4 + 4` |
 | `injective_pairing_unbounded` | Any injective pairing is unbounded on the diagonal (pigeonhole) |
 | `carry_propagation` | Base-2 addition of `(2^k - 1) + 1` witnesses carry from bit 0 to bit k |
+| `pairing_bounded_obstruction` | Formal `ConditionalObstruction`: no injective pairing is bounded on the diagonal |
 
 ## The argument
 
